@@ -69,6 +69,10 @@ app.set("view engine", "ejs");
 
 require("./routes/web")(app);
 
+app.use((req, res) =>{
+  res.status(404).render('errors/404');
+})
+
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT, () => {
   console.log(`Server is running at ${PORT}`);
