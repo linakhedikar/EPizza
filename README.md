@@ -4,7 +4,9 @@
 
 Project Link - https://epizza-tracker.herokuapp.com/
 
-#Features and Functionalities 😃
+<h2>Features and Functionalities 😃</h2>
+
+<ul>
 User features
 User sign up and login
 Save Cart
@@ -15,13 +17,16 @@ User friendly
 session cookies
 Admin features
 Update status at realTime
+ </ul>
 
 
-#Tech Stack 💻
+ <h2>Tech Stack 💻</h2>
+ <ul>
 Node.js
 Express.js
 MongoDB Atlas
 Sass
 Ejs
-Socket
+Socket.io
+ </ul>
 
